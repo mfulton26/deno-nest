@@ -1,4 +1,5 @@
 {
+  "lock": false,
   "tasks": {
     "start": "deno run -A main.ts",
     "test": "deno test -A"
