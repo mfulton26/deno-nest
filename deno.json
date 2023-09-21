@@ -1,0 +1,20 @@
+{
+  "tasks": {
+    "start": "deno run -A src/main.ts",
+    "test": "deno test -A"
+  },
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+  "imports": {
+    "@graphql-yoga/nestjs": "npm:@graphql-yoga/nestjs@^2.1.0",
+    "@nestjs/common": "npm:@nestjs/common@^10.0.0",
+    "@nestjs/core": "npm:@nestjs/core@^10.0.0",
+    "@nestjs/graphql": "npm:@nestjs/graphql@^12.0.0",
+    "@nestjs/platform-express": "npm:@nestjs/platform-express@^10.0.0",
+    "@nestjs/testing": "npm:@nestjs/testing@^10.0.0",
+    "graphql": "npm:graphql@^16.8.1",
+    "reflect-metadata": "npm:reflect-metadata@^0.1.13",
+    "rxjs": "npm:rxjs@^7.8.1"
+  }
+}
